@@ -1,0 +1,421 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#header{
+    background: rgba(55, 61, 73, 0.975);
+    height:60px;
+    padding:10px;
+
+}
+#left h1{
+    color:#fff;
+    font-size: 25px;
+    margin-top: 5px;
+}
+#left h1+ol{
+    border:2px solid grey;
+    display: flex;
+    padding: 10px;
+    list-style: none;
+    width: 350px;  
+    margin-left: 90px;
+    justify-content: space-between;
+    font-weight: 600px;
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    bottom: 628px;
+}
+#left h1+ol+a{
+    margin-left:448px ;
+    position: absolute;
+    bottom:642px;
+    text-decoration: none;
+    color:#fff
+}
+#header div+div div{
+    border:2px solid grey;
+    margin-left: 65em;
+    position: absolute;
+    top:10px;
+    width: 140px;
+
+}
+#header div+div div iframe{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#header div+div div iframe+span{
+    margin-left: 17px;
+    position: absolute;
+    bottom:10px;
+    text-decoration: none;
+}
+
+#header div+div div+div{
+    border:2px solid grey;
+    margin-left:75em;
+    width: 90px;
+    height:43px;
+}
+#header div+div div+div a{
+    color: #fff;
+    padding-left: 25px;
+    text-decoration: none;   
+    position: absolute;  
+    top:10px; 
+    font-size: 20px;
+}
+#header div+div div+div+div a{
+    font-size: 20px;
+    color: #fff;  
+    text-decoration: none; 
+    margin-left: 110px;
+    background: #e7746f;
+    border-color: #e7746f;
+    height:40px;
+    position: absolute;
+    top:1px;
+    padding-top:10px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+#main{
+    background-image: url("./image/helios\ img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height:620px;   
+    background-size: cover;
+}
+#main ol{
+    border:2px solid grey;
+    list-style: none;
+    display: flex;
+    width: 600px;
+    margin-left: 450px;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 70px;
+    height: 30px;
+    color:#fff;
+    font-size: 20px;
+    font-weight: lighter;
+}
+#main h1{
+    /* border:2px solid gr; */
+    position: absolute;
+    top: 4em;
+    left:10em;
+    font-size: 4em;
+    font-weight: lighter;
+    color: #fff;    
+}
+#main hr{
+    height:6px;
+    /* border:2px solid red;
+    height:30px; */
+    position: absolute;
+    top:380px;
+    left:570px;
+    width:340px;
+}
+#main p{
+    /* border:2px solid green; */
+    position: absolute;
+    top:420px;
+    left:588px;
+    font-size: 22px;
+    color: #fff;
+    font-weight: lighter;
+}
+#main a{
+    /* border:2px solid red; */
+    background: #df7366;
+    color: #fff;
+    position: absolute;
+    top:480px;
+    left:650px;
+    font-size: 40px;
+    height: 130px;
+    width: 130px;
+    padding-top: 35px;
+    padding-left: 30px;
+    border-radius: 700px;
+    text-decoration: none;
+}
+#main1{
+    height:250px;
+    /* border:2px solid red; */
+}
+#main1 h2{
+    /* border:2px solid blue; */
+    font-weight: 400;
+    color: #483949;
+    font-size: 55px;
+    margin-left: 400px;   
+}
+#main1 h1{
+    /* border:2px solid red; */
+    margin-left: 870px;
+    font-size: 60px;
+    color: #483949;
+    position: absolute;
+    top:680px;
+}
+#main1 p{
+    margin-top: 35px;
+    margin-left: 200px;
+    font-size: 25px;
+    color: #5b5b5b;
+}
+#div1{
+    background-image: url("./image/helios\ 1.jpg");
+    background-repeat: no-repeat;
+    height:200px;
+    width:300px;
+    background-size: cover;
+    /* border:2px solid red; */
+}
+#div2{
+    background-image: url("./image/helios\ 2.jpg");
+    background-repeat: no-repeat;
+    height:200px;
+    width:300px;
+    background-size: cover;
+}
+#div3{
+    background-image: url("./image/helios\ 3.jpg");
+    background-repeat: no-repeat;
+    height:200px;
+    width:300px;
+    background-size: cover;
+}
+#div4{
+    background-image: url("./image/helios\ 4.jpg");
+    background-repeat: no-repeat;
+    height:200px;
+    width:300px;
+    background-size: cover;
+}
+#main2 ol{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+#div1 h3{
+    color: #483949;
+    position: absolute;
+    top:63em;
+    left:50px;
+}
+#div1 h3:hover{
+    color: orange;
+}
+#div1 p{
+    color: #5b5b5b;
+    position: absolute;
+    top:76em;
+    left: 40px;
+    font-weight:400;
+}
+#div2 h3{
+    color: #483949;
+    position: absolute;
+    top:63em;
+    left:450px;
+}
+#div2 h3:hover{
+    color: orange;
+}
+#div2 p{
+    color: #5b5b5b;
+    position: absolute;
+    top:76em;
+    left: 450px;
+    font-weight:400;
+}
+#div3 h3{
+    color: #483949;
+    position: absolute;
+    top:63em;
+    left:870px;
+}
+#div3 h3:hover{
+    color: orange;
+}
+#div3 p{
+    color: #5b5b5b;
+    position: absolute;
+    top:76em;
+    left: 870px;
+    font-weight:400;
+}
+#div4 h3{
+    color: #483949;
+    position: absolute;
+    top:63em;
+    left:1270px;
+}
+#div4 h3:hover{
+    color: orange;
+}
+#div4 p{
+    color: #5b5b5b;
+    position: absolute;
+    top:76em;
+    left: 1270px;
+    font-weight:400;
+}
+#sub-main-div{
+    background-image: url("./image/helios\ 5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+    width:80em;
+    margin-top: 190px;
+    background-position: center;
+    margin-left: 120px;
+}
+#main4{
+    height:600px;
+    border:2px solid whitesmoke;
+    background-color: #fff;
+}
+#main4 h3{
+    font-weight: 400;
+    color: #483949;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 55px;
+}
+#main4 p{
+    color: #5b5b5b;
+    margin-left:230px ;
+    /* width:80em; */
+    font-size: 25px;
+    margin-top: 13px;
+}
+#main4 p span{
+    margin-left: 170px;
+}
+#main4 div{
+    /* border:2px solid red; */
+    height:150px;
+    margin-left: 190px;
+    width:1200px;
+
+}
+#main4 div p{
+    position: absolute;
+    font-size: 18px;
+    left:5px;
+}
+#main4 a{
+    /* border:2px solid red; */
+    margin-left: 710px;
+    position: absolute;
+    top:150em;
+    background: #df7366;
+    color: #fff;
+    font-weight: 400;
+    height:38px;
+    width:160px;
+    padding-top: 6px;
+    padding-left: 20px;
+    text-decoration: none;
+    border-radius: 12px;
+}
+#main5{
+    height:800px;
+    /* border:2px solid red; */
+}
+#main5 h2{
+    /* border:2px solid green; */
+    text-align: center;
+    font-weight: 400;
+    color: #483949;
+    font-size:40px;
+    margin-top: 100px;
+}
+#main5 p{
+    color: #5b5b5b;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+}
+#div5{
+    background-image: url("./image/helios\ img\ 6.jpg");
+    background-repeat: no-repeat;
+    height:240px;
+    width:400px;
+    background-size: cover;
+}
+#div6{
+    background-image: url("./image/helios\ 7.jpg");
+    background-repeat: no-repeat;
+    height:250px;
+    width:400px;
+    background-size: cover;
+}
+#div7{
+    background-image: url("./image/helios\ img\ 8.jpg");
+    background-repeat: no-repeat;
+    height:250px;
+    width:400px;
+    background-size: cover;
+}
+#main5 ol{
+    display: flex;
+    list-style: none;
+    justify-content:space-around;
+    margin-top: 50px;
+}
+#div5 h3{
+    /* border:2px solid green; */
+    color: #5b5b5b;
+    font-weight: 480;
+    position: absolute;
+    top:104em;
+    left:110px;
+    font-size: 30px;
+}
+#div5 p{
+    color: #5b5b5b;
+    position: absolute;
+    top:143em;
+    font-size:22px ;
+}
+#div6 h3{
+    /* border:2px solid green; */
+    color: #5b5b5b;
+    font-weight: 480;
+    position: absolute;
+    top:104em;
+    left:600px;
+    font-size: 30px;
+}
+#div6 p{
+    color: #5b5b5b;
+    position: absolute;
+    top:143em;
+    font-size:22px ;
+}
+#div7 h3{
+    /* border:2px solid green; */
+    color: #5b5b5b;
+    font-weight: 480;
+    position: absolute;
+    top:104em;
+    left:1100px;
+    font-size: 30px;
+}
+#div7 p{
+    color: #5b5b5b;
+    position: absolute;
+    top:143em;
+    font-size:22px ;
+}
+
+
