@@ -1,0 +1,255 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    height:70px;
+    background-color: #7ECC30;
+}
+nav{
+    height: inherit;
+    width:80%;
+    margin: auto;
+}
+#nav-left img{
+    height:50px;
+    margin-top: 10px;
+}
+#nav-right{
+   width:400px;
+   height:40px;
+   position: absolute;
+   right:155px;
+   top:20px;
+}
+#nav-right ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+#nav-right ol li{
+    color:#fff;
+    font-weight: bold;
+}
+#main{
+    height:550px;
+    background-image: url("./immages/petcare-img-main.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   background-attachment: fixed;
+}
+#main p{
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    line-height: 40px;
+    color:#000;
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    margin-left: 180px;
+    padding-top: 80px;
+    
+}
+#main p+small{
+    color: #F05C22 !important;
+    font-weight: 700;
+    font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
+    margin-left: 180px;
+}
+#main img{
+    position: absolute;
+    top:300px;
+    left:180px;
+}
+#main1{
+    /* border:2px solid; */
+    height:350px;
+}
+#main1 h1{
+    text-align: center;
+    margin-top: 50px;
+    color:#f78da7;
+}
+#main1 h1+p{
+    margin-left: 200px;
+    margin-top: 40px;
+    font-size: 18px;
+    color:#000;
+}
+#main2{
+    position: relative;
+    bottom:80px;
+    height:400px;
+}
+#main2-sub{
+    height: inherit;
+    width:70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.card-img-top{
+    height:200px;
+}
+#main3{
+    /* border:2px solid; */
+    height:600px;
+    background-image: url("./immages/petcare-img-main2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#main3 h1{
+    color:cadetblue;
+    text-align: center;
+    margin-top: 20px;
+}
+#main3 img{
+    height:250px;
+    margin-left: 10px;
+}
+#main3 img+img{
+    position: relative;
+    right:350px;
+    top:260px;
+}
+#main4{
+    /* border:2px solid; */
+    height:500px;
+}
+#main4 h1{
+    text-align: center;
+}
+#aside-left img{
+    height:350px;
+    padding-top: 50px;
+    margin-left: 400px;
+}
+#aside-right{
+    margin-left: 840px;
+    position: relative;
+    bottom:300px;
+}
+#aside-right ul li{
+    padding-top: 15px;
+}
+#aside-right ul li::marker{
+    content:"🐕‍🦺"
+}
+#main5{
+    height:750px;
+}
+#main5 article{
+    width:80%;
+    margin: auto;
+    height:700px;
+}
+#main5 article img{
+    height:600px;
+    width:100px;
+}
+#main5 article{
+    text-align: center;
+}
+#btn{
+    color:grey;
+    font-size: 50px;
+    position: absolute;
+    top:58.3em;
+    right:212px;
+}
+#main6{
+    /* border:2px solid; */
+    height:800px;
+}
+#main6 h1{
+    text-align: center;
+    padding-top: 100px;
+}
+#main6 h1+img{
+    margin-left: 150px;
+    height:70px;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+#main6 h1+img+h1{
+    position: absolute;
+    top:84.3em;
+    left:240px;
+}
+#main6 h1+img+h1+div ol{
+    list-style: none;
+}
+#main6 h1+img+h1+div{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+#main6 h1+img+h1+div+h5{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+#main6 h1+img+h1+div+h5+p{
+    margin-left: 150px;
+}
+
+#btn1{
+    height:30px;
+    width:50px;
+    background-color: #000;
+}
+#dogs {
+    background-color: #000;
+    color: #fff;
+    height:250px;
+    width:200px;
+    position: absolute;
+    top:60px;
+    right:200px;
+    display: none;
+}
+#dogs ol{
+    list-style: none;
+}
+#dogs ol li{
+    padding-top: 20px;
+}
+#btn2:hover{
+    background-color: #000;
+}
+#sign-in{
+    border:2px solid grey;
+    border-radius: 20px;
+    height:350px;
+    width:350px;
+    position: absolute;
+    top:160px;
+    left:580px;
+    background-color: #fff;
+    display: none;
+
+}
+#sign-in h3{
+    text-align: center;
+}
+#sign-in input{
+    width:250px;
+    text-align: center;
+    margin-left: 45px;
+    padding:8px;
+    margin-top: 20px;
+}
+#sign-in button{
+    width:150px;
+    text-align: center;
+    margin-left: 100px;
+    padding:8px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: blue;
+}
+#btn3:hover{
+    background-color: #000;
+}
