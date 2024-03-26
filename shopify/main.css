@@ -1,0 +1,307 @@
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+#main{
+    /* border:2px solid; */
+    height:700px;
+    background-image: url("./images/shopify\ video.avif");
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+#main header{
+    /* border:2px solid red; */
+    height:70px;
+    background-color: #010101;
+}
+#main nav{
+    /* border:2px solid green; */
+    height:inherit;
+    width:89%;
+    margin: auto;
+}
+#nav-left svg{
+    height:45px;
+    padding-top: 10px;
+}
+#nav-left ol{
+    border:2px solid;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width:450px;
+    position: relative;
+    bottom:30px;
+    left:10em;
+}
+#nav-left ol li{
+    color: #fff;
+}
+#nav-left ol li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#nav-left ol li div{
+    cursor: pointer;
+    font-weight: lighter;
+    font-weight: normal;
+    font-size: 17px;
+}
+#nav-left ol li div+i{
+    position: relative;
+    bottom:20px;
+    left:65px;
+    font-size: 22px;
+}
+#nav-left ol li+li+li div+i{
+    position: relative;
+    left:70px;
+}
+#nav-left ol li+li+li+li div+i{
+    position: relative;
+    left:80px;
+}
+#nav-right a{
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #fff;
+    position: relative;
+    bottom:87px;
+    left: 60em;
+    text-decoration: none;
+    font-size: 18px;
+}
+#nav-right a+a{
+    position: relative;
+    bottom:87px;
+    left: 63.4em;
+    padding:10px;
+    display: inline-block;
+    width:150px;
+    padding-left: 25px;
+    background-color: #fff;
+    color:#010101;
+    font-weight: bold;
+    border-radius: 20px;
+}
+#main h1{
+    color: #fff;
+    margin-top: 100px;
+    margin-left: 80px;
+    font-size: 55px;
+    font-weight:bold;
+}
+#main p{
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 80px;
+    font-size: 25px;
+}
+#main h1+p+a{
+    font-size: 20px;
+    position: relative;
+    margin-top: 150px;
+    left: 4em;
+    padding:15px;
+    display: inline-block;
+    width:170px;
+    padding-left: 25px;
+    background-color: #fff;
+    color:#010101;
+    font-weight: bold;
+    border-radius: 26px;
+    text-decoration: none;
+}
+#main h1+p+a:hover{
+    background-color: rgba(169, 168, 168, 0.608); 
+}
+#main h1+p+a+p{
+    position: absolute;
+    top:537px;
+    left:10.5em;
+    font-size: 17px;
+    font-weight: lighter;
+}
+#main h1+p+a+p+div{
+    margin-left: 48em;
+    display: inline-block;
+    padding: 20px;
+    width:270px;
+    font-size: 20px;
+    position: relative;
+    bottom:50px;
+    border-radius: 30px;
+    background-color: rgba(169, 168, 168, 0.608);
+}
+#main h1+p+a+p+div:hover{
+    background-color: #fff;
+    color: #010101;
+}
+#main h1+p+a+p+div svg{
+   color: #fff;
+   font-size:27px ;
+}
+#main h1+p+a+p+div a{
+    padding-left: 13px;
+    text-decoration: none;
+    color:#fff
+}
+#main1{
+    height:600px;
+}
+#main1 img{
+    position: relative;
+    right:13em;
+    height:800px;
+}
+#main1-right h2{
+    position: absolute;
+    top:800px;
+    left:13em;
+    font-size: 45px;
+}
+#main1-right h2 div{
+    background-image: linear-gradient(90deg,#e9f9f4,#cfebfe 45.31%,#f2eefe);
+}
+#main1-right h2+div h2{
+    margin-top: 280px;
+    margin-left: 140px;
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+    font-weight: 500;
+    font-family: ShopifySans,Helvetica,Arial,sans-serif;
+    border: 0 solid #e5e7eb;
+}
+#main1-right h2+div h2+p{
+    font-size: 1.129rem;
+    line-height: 1.75rem;
+    border: 0 solid #e5e7eb;
+    position: absolute;
+    top:62.5em;
+    left:36.5em;
+}
+#main1-right h2+div+div h2{
+    margin-top: 280px;
+    margin-left: 445px;
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+    font-weight: 500;
+    font-family: ShopifySans,Helvetica,Arial,sans-serif;
+    border: 0 solid #e5e7eb;
+}
+#main1-right h2+div+div h2+p{
+    font-size: 1.129rem;
+    line-height: 1.75rem;
+    border: 0 solid #e5e7eb;
+    position: absolute;
+    top:62.5em;
+    left:53.9em;
+}
+#main1-right h2+div+div+div h2{
+    margin-top: 430px;
+    margin-left: 140px;
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+    font-weight: 500;
+    font-family: ShopifySans,Helvetica,Arial,sans-serif;
+    border: 0 solid #e5e7eb;
+}
+#main1-right h2+div+div+div h2+p{
+    font-size: 1.129rem;
+    line-height: 1.75rem;
+    border: 0 solid #e5e7eb;
+    position: absolute;
+    top:71em;
+    left:37em;
+}
+#main1-right h2+div+div+div+div h2{
+    margin-top: 430px;
+    margin-left: 447px;
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+    font-weight: 500;
+    font-family: ShopifySans,Helvetica,Arial,sans-serif;
+    border: 0 solid #e5e7eb;
+}
+#main1-right h2+div+div+div+div h2+p{
+    font-size: 1.129rem;
+    line-height: 1.75rem;
+    border: 0 solid #e5e7eb;
+    position: absolute;
+    top:71em;
+    left:53.6em;
+}
+#main1 img+aside+h2{
+    border:2px solid red;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 1.5rem;
+    border: 0 solid #e5e7eb;
+    box-sizing: border-box;
+    font-family: ShopifySans,Helvetica,Arial,sans-serif;
+    position: absolute;
+    top:85em;
+    left:100px;
+}
+#main1 img+aside+h2+div{
+    /* border:2px solid; */
+    height:230px;
+    width: 86%;
+    margin: auto;
+}
+#main1 ol{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+#main1 ol  li{
+    border:2px solid grey;
+    height:230px;
+    border-radius: 12px;
+    background-color: #fff;
+    /* box-shadow: -3px 3px 0 grey; */
+}
+#main1-sub ol li img{
+    margin-left: 230px;
+    height:50px;
+    margin-top: 25px;  
+}
+#main1-sub ol li img+h2{
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    border: 0 solid #e5e7eb;
+    box-sizing: border-box;
+    font-family: ShopifySans,Helvetica,Arial,sans-serif;
+    margin-left:26px ;
+    margin-top: 15px;
+    font-weight: bold;
+}
+#main1-sub ol li img+h2+p{
+    cursor: pointer;
+    font-family: ShopifySans,Helvetica,Arial,sans-serif;
+    margin-left:26px ;
+    margin-top: 15px;
+    color: #333;
+}
+#main2{
+    border:2px solid;
+    margin-top: 650px;
+    height:600px;
+}
+#main2 p{
+    line-height: 1;
+    font-weight: 700;
+    font-family: ShopifySans,Helvetica,Arial,sans-serif;
+    margin-left: 100px;
+    color: #333;
+}
+#main2 h2{
+    font-family: ShopifySans,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size:45px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
